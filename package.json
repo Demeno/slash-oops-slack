@@ -1,0 +1,28 @@
+{
+  "name": "slash-oops",
+  "version": "1.0.0",
+  "contributors": [
+    {
+      "name": "Gal Green"
+    }
+  ],
+  "description": "oops app for Slack",
+  "main": "start.js",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "localStorage": "^1.0.3",
+    "mongodb": "^2.1.18",
+    "multer": "^1.1.0",
+    "ngrok": "^2.1.6",
+    "node-slack": "^0.0.7",
+    "request": "^2.67.0",
+    "universal-analytics": "^0.4.15",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node --use_strict start.js"
+  },
+  "license": "ISC"
+}

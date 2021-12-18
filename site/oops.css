@@ -1,0 +1,113 @@
+html, body {
+	text-align: center;
+	padding:0px;
+	margin:0px;
+	font-family: microsoft yahei ui;
+}
+
+body {
+	background-color: #FFEDB8;
+}
+
+#main-header {
+	margin:0px;	
+	padding:20px;
+	text-align: center;
+	background-color: #8889B2;
+}
+
+#main-header img {
+	display: block;
+	margin:auto;
+}
+
+#main-header h1 {
+	font-weight: bold;
+	font-size:40px;	
+	color:#3C3E7B;
+	display: inline-block;
+	max-width: 706px;
+}
+
+#demo-figure img {
+	border: 4px solid #D9C17D;
+    border-radius: 25px;
+}
+
+nav.add-to-slack-button-area {
+	background-color: #3C3E7B;
+	padding:15px;
+}
+
+h2 {
+	font-size:36px;
+	color: #B09547;
+}
+
+.text-section-wrapper {
+	color: #665221;
+	border: 4px solid #D9C17D;
+    border-radius: 25px;
+    max-width: 834px;
+    display: block;
+    margin:auto;
+    margin-bottom: 30px;
+    text-align: left;
+    padding:15px;    
+    font-size:22px;
+}
+
+.text-section-wrapper header {
+	font-weight: bold;
+}
+
+.text-section-wrapper p {
+	margin:0px;
+}
+
+.text-section-wrapper section {
+	margin-bottom:20px;
+}
+
+.text-section-wrapper section:last-child {
+	margin-bottom:0px;
+}
+
+.faq-subsection {
+	margin:20px 36px;	
+	font-size:20px;
+}
+
+.faq-subsection p {
+	margin-bottom:20px;
+}
+
+.faq-subsection p:last-child {
+	margin-bottom:0px;
+}
+
+a {
+	color: #665221;	
+	text-decoration: underline;
+}
+
+.success {
+	font-size:30px;
+	font-weight: bold;
+	color:#8889B2;
+}
+
+#try-it-out-section section {
+	font-size:18px;
+	color:#665221;
+	margin-bottom: 12px;
+}
+
+#try-it-out-section section header {
+	font-size:24px;
+	font-weight: bold;
+}
+
+#nav-back {
+	margin: 20px;
+}

@@ -1,0 +1,133 @@
+<html>
+	<head>
+		<meta name=viewport content='width=900'>
+
+		<meta property="og:url"                content="http://www.galgreen.com/oops/" />
+		<meta property="og:type"               content="product" />
+		<meta property="og:title"              content="/oops - Quick undo for Slack" />
+		<meta property="og:description"        content="Quickly undo silly mistakes with this tiny Slack app" />
+		<meta property="og:image"              content="http://www.galgreen.com/oops/fbShare.png" />
+		<meta property="og:site_name"          content="/oops" />
+		
+		
+		<link href="oops.css" rel="stylesheet" type="text/css">
+		<title>/oops - Slack App</title>
+	</head>
+	<body>
+		<header id="main-header">
+			<img src="siteLogo.png" />
+			<h1>
+				/oops - Quickly undo silly mistakes with this tiny Slack app
+			</h1>
+		</header>
+		<nav class="add-to-slack-button-area">
+			<a href="https://slack.com/oauth/authorize?client_id=16568163813.31616754258&scope=chat:write:user,commands,channels:history,im:history,groups:history"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
+		</nav>
+		<section>
+			<header>
+				<h2>How it Works</h2>
+			</header>
+			<figure id="demo-figure">
+				<img src="oopsDemo.gif" />
+			</figure>
+		</section>
+		<section id="faq">
+			<header>
+				<h2>FAQ</h2>
+			</header>			
+			<div class="text-section-wrapper">
+				<section>					
+					<header>What does this app actually do?</header>
+					<p>
+						When you send the command "/oops" the app looks for the latest message you sent in the current channel in the last 5 minutes, deletes it, and privately shows you a copy of what you wrote.
+					</p>
+				</section>
+				<section>
+					<header>Can't I just delete messages some other way?</header>
+					<p>
+						Yes, but "/oops" is much quicker and also gives you a copy.
+					</p>
+				</section>
+				<section>
+					<header>Why are these app permissions needed?</header>
+					<div class="faq-subsection">
+						<header>"Add commands"</header>
+						<p>							
+							So you can send the "/oops" command
+						</p>
+						<header>"Access content in your public channels"</header>
+						<p>							
+							For finding your recent message in a public channel
+						</p>
+						<header>"Access content in your private channels"</header>
+						<p>							
+							For finding your recent message in a private channel
+						</p>						
+						<header>"Access content in your direct messages"</header>
+						<p>							
+							For finding your recent message in direct messaging
+						</p>						
+						<header>"Send messages as you"</header>
+						<p>							
+							For deleting a message on your behalf
+						</p>
+					</div>
+				</section>
+				<section>
+					<header>Can I get some help?</header>
+					<p>						
+						Sure, email us at <a href="mailto:slash.oops.app@gmail.com">slash.oops.app@gmail.com</a>.
+					</p>
+				</section>
+				<section>
+					<header>Would you like some feedback / suggestions?</header>
+					<p>
+						Sure, email us at <a href="mailto:slash.oops.app@gmail.com">slash.oops.app@gmail.com</a>.
+					</p>
+				</section>
+			</div>
+		</section>
+		<section id="privacy">
+			<header>
+				<h2>Privacy</h2>
+			</header>			
+			<div class="text-section-wrapper">
+				<section>					
+					<header>What personal data do we store?</header>
+					<p>
+						We store the basic info we get from Slack when you add the app (user id, team id & team name).<br/>
+						We temporarily keep logs for debugging purposes, but without personal information.<br/>
+						<br/>
+						We don't store the contents of any of your messages, that wouldn't be cool.
+					</p>
+				</section>
+				<section>
+					<header>How do we protect your data?</header>
+					<p>
+						Our application is hosted in a secure server provided by heroku.com (you can read their security policy <a href="https://www.heroku.com/policy/security" target="blank">here</a>). We use a secure connection between Slack's servers and ours.
+					</p>
+				</section>				
+				<section>
+					<header>Do we share data with third parties?</header>
+					<p>
+						We don't share any of the (very little) data we have with any third party.
+					</p>
+				</section>				
+			</div>
+		</section>
+		<footer>
+			<nav class="add-to-slack-button-area">
+				<a href="https://slack.com/oauth/authorize?client_id=16568163813.31616754258&scope=chat:write:user,commands,channels:history,im:history,groups:history"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
+			</nav>
+		</footer>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-80131141-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+	</body>
+</html>
